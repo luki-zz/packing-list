@@ -1,4 +1,4 @@
-import { ItemsType } from "../App/App";
+import type { ItemsType } from "../../types/ItemsType";
 import style from "./Stats.module.css";
 
 export default function Stats({ items }: { items: ItemsType[] }) {

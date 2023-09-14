@@ -1,5 +1,5 @@
 import style from "./PackingList.module.css";
-import { ItemsType } from "../App/App";
+import type { ItemsType } from "../../types/ItemsType";
 import Item from "../Item/Item";
 
 export default function PackingList({

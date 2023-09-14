@@ -10,7 +10,7 @@ function App() {
   const [items, setItems] = useState<ItemsType[]>([]);
   const [sortBy, setSortBy] = useState("input");
 
-  let sortedItems: ItemsType[];
+  let sortedItems: ItemsType[] = [];
 
   function handleAddItem(description: string, quantity: number) {
     const item = {
